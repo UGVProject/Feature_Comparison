@@ -1,0 +1,5 @@
+/home/chris/projects/feature_compare/build/CMakeFiles/fast.dir
+/home/chris/projects/feature_compare/build/CMakeFiles/orb.dir
+/home/chris/projects/feature_compare/build/CMakeFiles/orb_fast.dir
+/home/chris/projects/feature_compare/build/CMakeFiles/orb_flann.dir
+/home/chris/projects/feature_compare/build/CMakeFiles/orb_ratio.dir

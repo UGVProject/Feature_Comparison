@@ -1,0 +1,20 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8 )
+PROJECT( SIFTTest )
+
+#SET(CMAKE_CXX_COMPILER "g++")
+#SET( CMAKE_BUILD_TYPE Debug  )
+
+# 增加opencv的依赖
+FIND_PACKAGE( OpenCV REQUIRED )
+
+ADD_EXECUTABLE( orb ORB_match0.cpp )
+ADD_EXECUTABLE( orb_ratio ORB_match.cpp )
+ADD_EXECUTABLE( orb_flann ORB_FlannMatcher.cpp )
+ADD_EXECUTABLE( orb_fast FAST_ORB_match.cpp )
+ADD_EXECUTABLE( fast FAST_match.cpp )
+TARGET_LINK_LIBRARIES( orb_ratio ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES( orb_flann ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES( orb ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES( orb_fast ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES( fast ${OpenCV_LIBS})
+

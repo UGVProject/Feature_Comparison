@@ -1,0 +1,3 @@
+/home/chris/projects/SIFT_Brute/build/CMakeFiles/orb.dir
+/home/chris/projects/SIFT_Brute/build/CMakeFiles/sift.dir
+/home/chris/projects/SIFT_Brute/build/CMakeFiles/surf.dir

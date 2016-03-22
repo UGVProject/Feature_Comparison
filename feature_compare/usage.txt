@@ -1,0 +1,11 @@
+.%which contains OpenCVConfig.cmake
+
+cmake -DCMAKE_PREFIX_PATH='/home/chris/opencv-2.4.11/release/installed/share/OpenCV' 
+
+
+
+
+./match '/home/chris/dataset/Left/L000_rect_rectified20.bmp' '/home/chris/dataset/Right/R000_rect_rectified20.bmp' --algorithm=sgbm --blocksize=7 --max-disparity=336
+
+
+./match '/home/chris/dataset/Left/L000_rect_rectified05.bmp' '/home/chris/dataset/Right/R000_rect_rectified05.bmp' --algorithm=sgbm --blocksize=7 --max-disparity=336
